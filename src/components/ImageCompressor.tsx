@@ -4,7 +4,6 @@ import VideoCompressor from './VideoCompressor'; // <--- Adiciona isto
 import { useState, useCallback } from 'react';
 import imageCompression from 'browser-image-compression';
 import { FiUploadCloud, FiCheckCircle, FiDownload, FiImage, FiCpu, FiTrash2, FiSettings, FiVideo, FiFolder } from 'react-icons/fi';
-import { useDropzone } from 'react-dropzone'; // Vamos precisar disto, mas por agora usamos o nativo para não complicar instalações
 
 // Tipo para gerir cada ficheiro individualmente
 interface ImageFile {
